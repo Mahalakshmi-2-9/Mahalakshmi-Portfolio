@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mahalakshmi Purushothaman | Software Developer</title>
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- External JavaScript -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <a href="#" class="logo">Mahalakshmi Purushothaman</a>
+    
+    <!-- Navigation Links -->
+    <nav id="nav-links">
+      <a href="#home">Home</a> 
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>  
+    </nav>
+    
+    <!-- Menu Icon -->
+    <div class="menu-icon" id="menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+</body>
+
+
+
+  <!-- ✅ Home Section -->
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <h1>HELLO</h1>
+      <h1> I'M Mahalakshmi 
+           <br> Purushothaman</h1>
+      <h2> <strong> a  Web Developer </strong></h2>
+      <p>
+  Welcome to my web developer portfolio! I'm Mahalakshmi, a skilled and creative<br> web developer with 
+  a passion for creating beautiful, responsive, and user-friendly websites. 
+  I've worked on a variety of web projects, ranging from personal blogs to e-commerce platforms.
+</p>
+
+      <!-- Buttons -->
+      <div class="home-buttons">
+        <a href="#contact" class="btn-primary">
+          <i class="fas fa-envelope"></i> Get in Touch
+        </a>
+        <a href="MAHALAKSHMI_PURUSHOTHAMAN.pdf" class="btn-outline" download>
+          <i class="fas fa-download"></i> Resume Download
+        </a>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="mailto:mahalakshmimaha2903@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/mahalakshmi-purushothaman-1319a3237" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Mahalakshmi-2-9" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="tel:+917806903331"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="home-image">
+      <img src="MAHA   .jpg" alt="Mahalakshmi Profile Picture" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+    <section id="about" class="about-section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+        <div class="about-text">
+            <p>
+                I am an aspiring Software Engineer passionate about Web Development and creating responsive,user-friendly websites. With a strong foundation in Java, HTML, CSS, JavaScript, and SQL,I enjoy building functional web applications and continuously enhancing my skills through hands-on projects.
+
+Driven by a deep interest in technology,I specialize in full-stack development and emerging technologies.I aim to apply my skills in real-world projects,contribute to impactful solutions,and expand my expertise. Iam open to internships,collaborations,and professional growth opportunities, and look forward to working with individuals and organizations to deliver meaningful outcomes.
+
+Actively involved in organizing seminars,workshops,and hackathons,I have strengthened my teamwork,communication, and leadership skills. I am dedicated to delivering high-quality solutions by combining technical expertise with a collaborative mindset.My focus is on contributing to projects that embrace innovation,efficiency, and user-focused design, while keeping up with modern tools,frameworks,and industry best practices.</p>
+            <div class="skills">
+              <span>Java</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>SQL</span>
+            </div>
+        </div>
+        <div class="about-img">
+        <img src="MAHALAKSHMI_P.jpg" alt="Mahalakshmi Purushothaman">
+        </div>
+    </div>
+</section>
+
+
+<!--project  Details-->
+  <section id="projects" class="projects-section">
+  <h2>Projects</h2>
+  <p class="subtitle">Innovative solutions addressing real-world challenges</p>
+
+  <div class="projects-grid">
+ <!-- Project 1 -->
+<div class="project-card blue">
+  <div class="project-card-header">
+    <div class="icon">🔍</div>
+    <h3>Missing Child Identification</h3>
+    <span class="duration">Mar 2025 – Apr 2025</span>
+  </div>
+  <div class="project-card-content">
+    <p>This project helps parents and police find missing children using face recognition. The web app lets users upload photos and details, using Dlib 68 landmarks and ResNet to detect and recognize faces, even with changes in appearance.</p>
+    <strong>Tech Stack:</strong>
+    <div class="tech-tags">
+      <span>Java</span><span>OpenCV</span><span>Spring Boot</span><span>ResNet</span>
+    </div>
+    <a href="https://github.com/Mahalakshmi-2-9/Missing-Child-Identification" class="github-link" target="_blank">GitHub Repo</a> |
+    <a href="#" class="toggle-btn" onclick="toggleDetails(event)">More Details →</a>
+    <div class="more-details" style="display: none;">
+      <p>
+        We used ResNet along with Java and OpenCV to match faces from surveillance footage 
+        and uploaded images. When a match is found, the system alerts police and parents. 
+        The frontend was built with HTML/CSS, backend in Java (Servlets, JDBC). 
+        This project speeds up finding missing children.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Project 2 -->
+<div class="project-card green">
+  <div class="project-card-header">
+    <div class="icon">🍽️</div>
+    <h3>Online Food Ordering</h3>
+    <span class="duration">Mar 2024 – Apr 2024</span>
+  </div>
+  <div class="project-card-content">
+    <p>This project is an online food ordering system where users can browse, select, and order food easily. The system is designed to enhance the user experience by analyzing previous orders and customer behavior to provide personalized food recommendations. </p>
+    <strong>Tech Stack:</strong>
+    <div class="tech-tags">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span>
+    </div>
+    <a href="https://github.com/Mahalakshmi-2-9/Online-Food-Ordering" class="github-link" target="_blank">GitHub Repo</a> |
+    <a href="#" class="toggle-btn" onclick="toggleDetails(event)">More Details →</a>
+    <div class="more-details" style="display: none;">
+  <p>
+    This online food ordering system helps restaurants offer better service and lets users quickly find and order their favorite meals. It provides personalized recommendations based on past orders, with a responsive HTML, CSS, and JavaScript frontend and a MySQL backend for storing customer data, orders, and menu items.
+  </p>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Project 3 -->
+<div class="project-card purple">
+  <div class="project-card-header">
+    <div class="icon">👁️</div>
+    <h3>Blind Aid Stick Recognition</h3>
+    <span class="duration">Oct 2023 – Nov 2023</span>
+  </div>
+  <div class="project-card-content">
+    <p>This project is designed to assist visually impaired individuals in navigating safely and independently. We developed a smart walking stick equipped with IoT sensors to detect obstacles, a GPS module for location tracking, and a panic button for emergencies. </p>
+    <strong>Tech Stack:</strong>
+    <div class="tech-tags">
+      <span>Java</span><span>ML</span><span>Arduino</span><span>IoT</span>
+    </div>
+    <a href="https://github.com/Mahalakshmi-2-9/Blind-Aid-Stick" class="github-link" target="_blank">GitHub Repo</a> |
+    <a href="#" class="toggle-btn" onclick="toggleDetails(event)">More Details →</a>
+    <div class="more-details" style="display: none;">
+     <p>The system includes voice output to provide real-time audio feedback about the surroundings. Java was used for programming the logic, and machine learning was applied to improve obstacle recognition accuracy. The hardware was built using IoT components such as ultrasonic sensors and GPS modules, controlled via a microcontroller like Arduino or Raspberry Pi</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- Education Section -->
+<!-- Education Section -->
+<section class="education-certifications" id="education">
+  <h2 class="section-title">Education & Certifications</h2>
+  <div class="edu-cert-grid">
+    
+    <!-- Left Column (Education + Skills) -->
+    <div class="left-column">
+      <!-- Education Card -->
+      <div class="education-card">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-details">
+          <h3>Bachelor of Technology</h3>
+          <p class="sub-title">Information Technology</p>
+          <p>Panimalar Institute of Technology, Chennai</p>
+          <p>Nov 2021 – Jun 2025</p>
+          <div class="cgpa">CGPA: 8.2/10</div>
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="skills-section">
+        <h3>💻 Technical Skills</h3>
+        <div class="skills-list">
+          <span class="skill">JAVA</span>
+          <span class="skill">SQL</span>
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JAVASCRIPT</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column (Certifications) -->
+    <div class="certifications-list">
+      <div class="cert-item"><span>🏅</span> Scientific Stay Certificate <small>NOOBTRAN PVT. LTD</small></div>
+      <div class="cert-item"><span>🗄️</span> Oracle SQL Certificate <small>EDUCBA</small></div>
+      <div class="cert-item"><span>📊</span> Data Analytics Job Simulation <small>DELOITTE</small></div>
+      <div class="cert-item"><span>💻</span> Java Full Stack Development <small>Q SPIDERS</small></div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+        <!-- Contact Section -->
+  <section id="contact">
+    <div class="panel">
+      <div class="content">
+        <div class="left">
+          <div class="kicker">Contact</div>
+          <h1>Let's make something great together</h1>
+            <p class="lead">
+          I am passionate about technology with a strong foundation in full-stack
+          development and emerging technologies. I am eager to apply my skills
+          in real-world projects, contribute to impactful solutions, and
+          continuously expand my expertise. I welcome opportunities for
+          internships, collaborations, and professional growth, and look forward
+          to connecting with individuals and organizations to create meaningful
+          outcomes.I am highly motivated to learn and adapt to emerging technologies, 
+          modern development tools, and frameworks, while applying industry 
+          best practices in coding, testing, and deployment. My active involvement in organizing seminars, workshops, and hackathons
+           has strengthened my teamwork, communication, and leadership skills.
+           Dedicated to delivering high-quality solutions, I combine
+          technical skills with a collaborative mindset. My focus is on
+          contributing to projects that align with innovation, efficiency, and
+          user-focused outcomes. I am open to working with individuals and
+          organizations to bring ideas to life.
+        </p>  
+           <div class="socials">
+          <a class="linkedin" href="https://www.linkedin.com/in/mahalakshmi-purushothaman-1319a3237" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a class="gmail" href="mailto:mahalakshmimaha2903@example.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a class="github" href="https://github.com/Mahalakshmi-2-9" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a class="phone" href="tel:7806903331">
+            <i class="fas fa-phone-alt"></i>
+          </a>
+        </div>
+      </div>
+        <aside class="right">
+          <form>
+            <div class="form-row field">
+              <div>
+                <label for="fname">First Name</label>
+                <input id="fname" class="input" placeholder="First Name" />
+              </div>
+              <div>
+                <label for="lname">Last Name</label>
+                <input id="lname" class="input" placeholder="Last Name" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="email">Email <span class="required">*</span></label>
+              <input id="email" class="input" type="email" placeholder="Email address" required />
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input id="subject" class="input" placeholder="Subject" />
+            </div>
+
+            <div class="field">
+              <label for="message">Your Message <span class="required">*</span></label>
+              <textarea id="message" class="input" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <div class="submit-row">
+              <button class="btn" type="submit">Submit Form</button>
+              <div class="note">We reply within 1–2 business days.</div>
+            </div>
+          </form>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mahalakshmi Purushothaman. All rights reserved.</p>
+  </footer>
+</body>
+</html>
